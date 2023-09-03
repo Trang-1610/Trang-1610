@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(198, 235, 249);
+}
+#container{
+    width: 80%;
+        margin: auto;
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+.li{
+    float: left;
+}
+.li a, .dropbtn,.dropbtnn{
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.li a:hover , .dropdown:hover .dropbtn, .dropdownn:hover .dropbtnn{
+    background-color: rgb(111, 78, 143);
+}
+.li.dropdown,  .li.dropdownn{
+    display: inline-block;
+}
+.dropdown-content, .dropdown-contentn {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(9, 8, 8);
+    z-index: 1;
+}
+.dropdown-content, .dropdown-contentn {
+    background-color: gray;
+}
+.dropdown:hover .dropdown-content, .dropdownn:hover .dropdown-contentn{
+    display: block;
+}
+#Nav{
+    display: flex;
+    background-color:white;
+   
+    background-attachment: fixed;
+}
+.NameLogo{
+    width: 300px;
+}
+#Ten{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    width: 100px;
+}
+#Menu{
+    
+  padding-left: 50px;
+  padding-top: 20px;
+}
+#footer{
+    background-color: white;
+    text-decoration: dotted;
+    display: block;
+}
+
+
+
+

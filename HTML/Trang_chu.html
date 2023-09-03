@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêu phòng trọ</title>
+    <link rel="stylesheet" href="../CSS/Thue_Phong_TRo.css">
+    <style>
+        h1{
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #Tieude{
+            border: solid 1px white;
+            display: inline-block;
+
+        }
+        #Tiende:hover{
+            box-shadow:  0px 10px 10px;
+        }
+        .Anh{
+            width: 150px;
+            border-radius: 20px;
+        }
+        .Anhh{
+            width: 300px;
+            border-radius: 20px;
+        }
+        #box1{
+            padding-top: 20px;
+            text-align: center;
+        }
+        .box{
+            padding: 20px;
+            width: 200px;
+        }
+       .input{
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+       }
+       .Box2{
+        width: 200px;
+        height: 270px;
+        font-size:12px;
+        border: solid 2px white;
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: rgb(241, 241, 223);
+        padding: 15px;
+        margin: auto;
+       }
+       .Box2:hover{
+        box-shadow: 0px 10px 10px;
+       }
+       .Anh1{
+        width: 200px;
+       }
+       .khung{
+        border-radius: 10px;
+    }
+    .khung:hover{
+        box-shadow: 0px 10px 10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <head>
+
+        </head>
+        <nav>
+            <div id="Nav">
+                <table>
+                    <td><div id="Logo">
+                        <div>
+                            <img src="../IMG/Logo.png" alt="" style="width: 70px;">
+                        </div>
+                        <div id="Ten">S-HOME</div>
+                    </div></td>
+                    <td class="NameLogo"><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">UY TÍN VÀ CHẤT LƯỢNG</h2></td>
+                
+                </table>
+                <div id="Menu">
+                    <ul class="ul">
+                        <li class="li"><a href="../HTML/Trang_chu.html">Trang chủ</a></li>
+                        <li class="li"><a href="../HTML/Tin_tuc.html">Tin tức</a></li>
+                        <li class="li"><a href="../HTML/Mo_gioi.html">Mô giới</a></li>
+                        <li class="li">
+                            <ul class="ul">
+                            <li class="dropdown">
+                            <a class="dropbtn">Tư vấn</a>
+                            <div class="dropdown-content">
+                                <a href="../HTML/Tu_van_luat.html">Tư vấn luật</a>
+                                <a href="../HTML/Phong_thuy.html">Phong thủy</a>
+                                <a href="../HTML/Hoi_dap.html">Hỏi đáp</a>
+                            </div>
+                            </li>
+                            </ul>
+                        </li>
+                        <li class="li"><a href="../HTML/Ve_chung_toi.html">Về chúng tôi</a></li>
+                        <li class="li"><a href="../HTML/Lien_ket.html">Liên kết</a></li>
+                        <li class="li">
+                            <ul class="ul">
+                                <li class="dropdownn">
+                                <a class="dropbtnn">Đăng ký/Đăng nhập</a>
+                                <div class="dropdown-contentn">
+                                    <a href="../HTML/Dang_ki.html">Đăng ký</a>
+                                    <a href="../HTML/Dang_nhap.html">Đăng nhập</a>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div>
+            <div id="box1">
+            <table>
+                <tr>
+                <td>
+                    <div class="box">
+                    <select name="kv" id="" class="input">
+                        <option value="">Khu vực</option>
+                        <option value="GV">Gò Vấp</option>
+                        <option value="BT">Bình Thạnh</option>
+                        <option value="TD">Thủ Đức</option>
+                        </select>
+                    </div>
+                </td>
+
+                    <td>
+                        <div class="box">
+                        <select name="DT" id="" class="input">
+                            <option value="">Đối tượng</option>
+                            <option value="SV">Sinh Viên</option>
+                            <option value="NLD">Người lao động</option>
+                            </select>
+                        </div>
+                    </td>
+                
+                
+                    <td> 
+                        
+                            <div class="box">
+                                <select name="dt" id="" class="input">
+                                    <option value="">Diện tích</option>
+                                    <option value="gia1">Dưới 20m2</p></option>
+                                    <option value="gia2">Từ 20 - 30m2</option>
+                                    <option value="gia3">Từ 30 - 40m2</option>
+                                    <option value="gia4">Từ 40 - 50m2</option>
+                                    <option value="gia5">Từ 50 - 60m2</option>
+                                    <option value="gia6">Trên 60m2</option>
+                                    </select>
+                        </div>
+                
+                     </td>
+                     <td> <div class="box">
+                         <select name="kg" id="" class="input">
+                             <option value="">Khoảng giá</option>
+                             <option value="gia1">Dưới 1,5 triệu</option>
+                             <option value="gia2">Từ 1,5 - 2 triệu</option>
+                             <option value="gia3">Từ 2 -2,5 triệu</option>
+                             <option value="gia4">Từ 2,5 -3 triệu</option>
+                             <option value="gia5">Từ 3 - 4 triệu</option>
+                             <option value="gia6">Trên 4 triệu</option>
+                             </select>
+                            </div>
+                     </td>
+                     <td> <div class="box"><input type="submit" value="&#128269;Tìm kiếm" style="background-color: green; border-radius: 8px; height: 30px; width: 120px;"></div></td>
+                    </tr>
+            </table>
+            </div>
+            <table>
+                <td>
+                    <div class="khung">
+                    <h1>
+                        S- Home tạo ra nơi sáng tạo cho bạn
+                    </h1>
+                    <p>
+                        Chúng tôi tự tin là người đồng hành với bạn 
+                        trong suốt chặn đường chinh phục ước mơ, để làm được 
+                        điều đó chúng tôi luôn tạo ra những không gian sáng tạo, 
+                        thoải mái với lối thiết kế hiện đại kết hợp với dịch vụ 
+                        tiện ích chất lượng để bạn thoả sức đam mê, phát huy hết 
+                        khả năng vốn có.
+                    </p> 
+                </div>
+                </td>
+                <td>
+                    <img src="../IMG/Anh1.jpg" alt="" class="Anhh">
+                </td>
+                <td>
+                    <table>
+                        <td>
+                            <img src="../IMG/Anh2.jpg" alt="" class="Anhh">
+                        </td>
+                        <td>
+                            <img src="../IMG/Anh7.webp" alt="" class="Anhh">
+                        </td>
+                    </table>
+                    <table>
+                        <td>
+                            <img src="../IMG/Anh3.jpg" alt="" class="Anh">
+                        </td>
+                        <td>
+                            <img src="../IMG/Anh4.jpg" alt="" class="Anh">
+                        </td>
+                        <td>
+                            <img src="../IMG/Anh5.jpg" alt="" class="Anh">
+                        </td>
+                        <td>
+                            <img src="../IMG/Anh6.jpg" alt="" class="Anh">
+                        </td>
+                    </table>
+                </td>
+            </table>
+        </div>
+        <hr>
+        <h3 style="color: brown;">Các phòng trọ nổi bật</h3>
+        <div>
+            <table >
+                <td>
+                <div class="Box2">
+                    <table>
+                        <tr>
+                            <img src="../IMG/Anh2.jpg" alt=""class="Anh1" usemap="#shapes">
+                            <map name="shapes">
+                                <area shape="rect" coords="0 0 100 100" href="https://www.facebook.com/groups/nhatro.chothue.phongtro.tphcm/" alt="fb">
+                            </map>
+                        </tr>
+                        <tr>
+                            <a class="anh" style="color: brown;text-decoration: none;" href="#"><h4>Chính chủ cho thuê căn hộ đẹp rộng rãi <br> <br>5 triệu/tháng <br> <br> 25m2 <br> <br> Quận 1, Hồ Chí Minh </h4></a>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div class="Box2">
+                    <table>
+                        <tr>
+                            <img src="../IMG/Anh2.jpg" alt=""class="Anh1" usemap="#shapes">
+                            <map name="shapes">
+                                <area shape="rect" coords="0 0 100 100" href="https://www.facebook.com/groups/nhatro.chothue.phongtro.tphcm/" alt="fb">
+                            </map>
+                        </tr>
+                        <tr>
+                            <a class="anh" style="color: brown;text-decoration: none;" href="#"><h4>Chính chủ cho thuê căn hộ đẹp rộng rãi <br> <br>5 triệu/tháng <br> <br> 25m2 <br> <br> Quận 1, Hồ Chí Minh </h4></a>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div class="Box2">
+                    <table>
+                        <tr>
+                            <img src="../IMG/Anh2.jpg" alt=""class="Anh1" usemap="#shapes">
+                            <map name="shapes">
+                                <area shape="rect" coords="0 0 100 100" href="https://www.facebook.com/groups/nhatro.chothue.phongtro.tphcm/" alt="fb">
+                            </map>
+                        </tr>
+                        <tr>
+                            <a class="anh" style="color: brown;text-decoration: none;" href="#"><h4>Chính chủ cho thuê căn hộ đẹp rộng rãi <br> <br>5 triệu/tháng <br> <br> 25m2 <br> <br> Quận 1, Hồ Chí Minh </h4></a>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div class="Box2">
+                    <table>
+                        <tr>
+                            <img src="../IMG/Anh2.jpg" alt=""class="Anh1" usemap="#shapes">
+                            <map name="shapes">
+                                <area shape="rect" coords="0 0 100 100" href="https://www.facebook.com/groups/nhatro.chothue.phongtro.tphcm/" alt="fb">
+                            </map>
+                        </tr>
+                        <tr>
+                            <a class="anh" style="color: brown;text-decoration: none;" href="#"><h4>Chính chủ cho thuê căn hộ đẹp rộng rãi <br> <br>5 triệu/tháng <br> <br> 25m2 <br> <br> Quận 1, Hồ Chí Minh </h4></a>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div class="Box2">
+                    <table>
+                        <tr>
+                            <img src="../IMG/Anh2.jpg" alt=""class="Anh1" usemap="#shapes">
+                            <map name="shapes">
+                                <area shape="rect" coords="0 0 100 100" href="https://www.facebook.com/groups/nhatro.chothue.phongtro.tphcm/" alt="fb">
+                            </map>
+                        </tr>
+                        <tr>
+                            <a class="anh" style="color: brown;text-decoration: none;" href="#"><h4>Chính chủ cho thuê căn hộ đẹp rộng rãi <br> <br>5 triệu/tháng <br> <br> 25m2 <br> <br> Quận 1, Hồ Chí Minh </h4></a>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </table>
+        </div>
+        </section>
+        <footer>
+            <div id="footer">
+                <h3>Nhóm 10</h3>
+                <ul>
+                    <li>Nguyễn Cao Thế Kiệt: 21108581</li>
+                    <li>Nguyễn Nguyễn Phong: 21070601</li>
+                    <li>Lê Thị Ngọc Thúy: 21061731</li>
+                    <li>Trần Thị Huyền Trang: 21061001</li>
+                    <li>Trần Kế Tuấn Vương: 21054311</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
